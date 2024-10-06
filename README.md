@@ -6,6 +6,25 @@ LayerZero を学ぶためのサンプルリポジトリです。
 
 異なるブロックチェーン間でコントラクトのメッセージのやり取りを可能にするクロスチェーンプロトコル
 
+## クイックスタート
+
+Use LayerZero's Contract Standards to easily start sending arbtirary data, tokens, and external calls using the protocol:
+
+- Omnichain Application (OApp):  
+  the base contract standard for omnichain messaging and configuration.
+
+- Omnichain Fungible Token (OFT):  
+  an extension of OApp built for handling and supporting omnichain ERC20 transfers.
+
+- Omnichain Non-Fungible Token (ONFT):  
+  an extension built for handling and supporting omnichain ERC721 transfers.
+
+## テンプレプロジェクト生成コマンド
+
+```bash
+npx create-lz-oapp@latest
+```
+
 ### 参考情報
 
 1. [LayerZero-Labs/solidity-examples](https://github.com/LayerZero-Labs/solidity-examples)
@@ -15,3 +34,5 @@ LayerZero を学ぶためのサンプルリポジトリです。
 5. [LayerZero HP](https://layerzero.network/)
 6. [ブロックチェーン相互運用性プロトコル「LayerZero（レイヤーゼロ）」とは](https://coinpost.jp/?p=439167)
 7. [Endpoint TestnetAddresses](https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses)
+8. [GibHub - LayerZero-Labs](https://github.com/LayerZero-Labs)
+9. [ドキュメント](https://docs.layerzero.network/v2/developers/evm/overview)
